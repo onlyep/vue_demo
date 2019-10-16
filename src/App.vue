@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <div class="header">header</div>
-    {{msg}}
+    <Header/>
+    <router-view/>
   </div>
 </template>
 
 <script>
+import Header from './components/Header.vue'
+
 export default {
+  components: { Header},
   data() {
     return {
       msg: 'hello ep'
