@@ -6,6 +6,7 @@
         <div class="photo"><img src="../static/imgs/1.jpg" alt=""></div>
         <div class="photo"><img src="../static/imgs/2.jpg" alt=""></div>
         <div class="photo"><img src="../static/imgs/3.jpg" alt=""></div>
+        <div class="photo"><img src="../static/imgs/4.jpg" alt=""></div>
       </div>
     </div>
   </div>
@@ -13,10 +14,16 @@
 
 <script>
 export default {
-
+  name: 'photo'
 }
 </script>
 
-<style>
-
+<style lang="less" scoped>
+.photo-wrapper {
+  text-align: center;
+  font-size: 0;
+}
+.photo img {
+  width: 100%;
+}
 </style>
